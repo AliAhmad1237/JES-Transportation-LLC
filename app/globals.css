@@ -2,20 +2,120 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --near-black: #0B0B0B;
+    --charcoal: #181818;
+    --warm-white: #F5F3EE;
+    --soft-gray: #D8D6D0;
+    --muted-steel: #898B8C;
+    --burnt-orange: #C75B35;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--near-black);
+    color: var(--warm-white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-inter), sans-serif;
+    background-color: var(--near-black);
+    color: var(--warm-white);
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: #C75B35;
+    color: #F5F3EE;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom editorial link hover */
+.editorial-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.editorial-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: currentColor;
+  transform-origin: bottom right;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Input styles for minimal underlined form */
+.underlined-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(24, 24, 24, 0.25);
+  padding: 0.875rem 0;
+  width: 100%;
+  color: #181818;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 0;
+}
+
+.underlined-input:focus {
+  outline: none;
+  border-bottom: 1px solid #C75B35;
+  box-shadow: 0 1px 0 0 #C75B35;
+}
+
+.underlined-input::placeholder {
+  color: #898B8C;
+  font-weight: 300;
+}
+
+/* Dark mode inputs if used in dark sections */
+.underlined-input-dark {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(245, 243, 238, 0.2);
+  padding: 0.875rem 0;
+  width: 100%;
+  color: #F5F3EE;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 0;
+}
+
+.underlined-input-dark:focus {
+  outline: none;
+  border-bottom: 1px solid #C75B35;
+  box-shadow: 0 1px 0 0 #C75B35;
+}
+
+.underlined-input-dark::placeholder {
+  color: #898B8C;
+  font-weight: 300;
 }

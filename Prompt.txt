@@ -1,0 +1,526 @@
+# JES TRANSPORTATION LLC
+
+## PREMIUM MINIMAL TRUCKING WEBSITE — MASTER PROMPT
+
+Build a complete, production-ready website for **JES Transportation LLC**, designed to feel like a premium custom agency project.
+
+The design philosophy is:
+
+**Minimal interface. Rich details. Strong typography. Beautiful photography. Purposeful motion.**
+
+Do not fill the website with bulky icons, excessive cards, gradients, badges, floating elements, or unnecessary animations.
+
+Make the website feel like a sophisticated American transportation brand, not a generic trucking template.
+
+## 1. Verified company information
+
+Use only these supplied SAFER/FMCSA details:
+
+* **Legal name:** JES TRANSPORTATION LLC
+* **USDOT:** 3816355
+* **USDOT status:** ACTIVE
+* **Out-of-service date:** None
+* **MC number:** MC-1386941
+* **Operating authority:** Authorized for Motor Carrier of Property, except household goods
+* **Entity type:** CARRIER/IEP
+* **MCS-150 form date:** May 7, 2025
+* **MCS-150 mileage:** 18,000 miles, 2024 reporting year
+* **Physical address:** 1828 Delancy Ln, Corona, CA 92881-4411
+* **Mailing address:** 1828 Delancy Ln, Corona, CA 92881-4411
+* **Phone:** (951) 256-6567
+* **Power units:** 2
+* **Non-CMV units:** 0
+* **Drivers:** 2
+
+Do not display the DUNS value unless needed.
+
+### Accuracy requirements
+
+Do not invent cargo specializations, trailer types, routes, service areas, years in business, customer numbers, reviews, safety statistics, insurance limits, certifications, awards, partnerships, or hiring conditions.
+
+Do not claim nationwide coverage, 24/7 availability, real-time tracking, or guaranteed delivery times without confirmation.
+
+The supplied record does not establish detailed service offerings beyond the stated operating authority. Keep service descriptions appropriately general.
+
+## 2. Creative direction
+
+Concept:
+
+**CALIFORNIA TRANSPORTATION × AUTOMOTIVE EDITORIAL × CONTEMPORARY MINIMALISM**
+
+The site should feel confident and understated, using carefully composed truck photography, clean grids, elegant typography, subtle transitions, and generous whitespace.
+
+Avoid:
+
+* Bulky icons everywhere
+* Excessive rounded cards
+* Glassmorphism and neon gradients
+* Generic corporate stock layouts
+* Fake statistics and testimonials
+* Unnecessary dashboard-style sections
+* Decorative animations that slow down navigation
+
+## 3. Visual identity
+
+Use a restrained palette:
+
+* Near black: `#0B0B0B`
+* Charcoal: `#181818`
+* Warm white: `#F5F3EE`
+* Soft gray: `#D8D6D0`
+* Muted steel: `#898B8C`
+* Restrained burnt orange: `#C75B35`
+
+Use the accent color sparingly for small lines, links, active states, and CTA arrows.
+
+Typography:
+
+* Display: Archivo or Geist
+* Body: Inter or Manrope
+* Technical information: IBM Plex Mono
+
+Typography and photography should provide the visual character. Do not compensate for a weak layout by adding more UI elements.
+
+## 4. Navigation
+
+Create a thin, minimal navigation bar.
+
+Left:
+**JES TRANSPORTATION**
+
+Right:
+
+* Company
+* Operations
+* Carrier Information
+* Contact
+* Call ↗
+
+Use text links rather than icon buttons.
+
+Initially, the navigation can overlay the hero image. When scrolling, transition to a solid or subtly translucent background with a thin divider.
+
+On mobile, use a clean full-screen menu with large text and a clearly visible phone number.
+
+## 5. Cinematic hero
+
+Create a full-viewport hero using high-quality photography of a realistic American tractor-trailer traveling on a California highway.
+
+Visual direction:
+
+* Early morning or late-afternoon natural light
+* Strong road composition
+* Realistic truck proportions
+* Restrained cinematic color grading
+* Negative space for typography
+
+Do not place a giant card over the photograph. Do not add fake JES branding to a truck image.
+
+Headline:
+
+# MOVING
+
+# WITH
+
+# PURPOSE.
+
+Supporting text:
+
+"JES Transportation LLC is an active motor carrier based in Corona, California, authorized for motor carrier of property except household goods."
+
+Primary CTA: **CALL JES ↗**
+
+Secondary CTA: **CARRIER INFORMATION**
+
+Small metadata:
+`CORONA / CALIFORNIA`
+`USDOT 3816355`
+
+Phone link: `tel:+19512566567`
+
+## 6. Hero animation
+
+Keep the opening sequence short and elegant.
+
+* Photograph fades in with a subtle scale correction.
+* Headline reveals upward through a mask.
+* Supporting text fades in afterward.
+* CTA arrows move slightly on hover.
+* Scroll transition gradually moves the headline out of view.
+
+Avoid character-by-character animation on every heading. Do not delay access to the actual website with a long intro.
+
+## 7. Company introduction
+
+Transition from the dark hero to a warm-white editorial section.
+
+Small label:
+
+`01 / COMPANY`
+
+Headline:
+
+# A FOCUSED
+
+# CARRIER.
+
+Copy:
+
+"JES Transportation LLC is based in Corona, California. Its supplied SAFER record lists active USDOT status and operating authority for motor carrier of property, except household goods."
+
+Use a two-column layout with text on one side and a large, carefully cropped truck photograph on the other.
+
+Use generous margins and minimal decoration.
+
+## 8. Company facts
+
+Present the company's scale and registration information in a clean editorial layout rather than a card grid.
+
+| Detail          | Information        |
+| --------------- | ------------------ |
+| USDOT status    | Active             |
+| USDOT number    | 3816355            |
+| MC number       | MC-1386941         |
+| Power units     | 2                  |
+| Drivers         | 2                  |
+| MCS-150 mileage | 18,000             |
+| Reporting year  | 2024               |
+| Location        | Corona, California |
+
+Use thin horizontal rules, aligned labels, and restrained monospace text.
+
+Numbers may reveal through a subtle vertical animation. Do not animate them as if they represent growth or performance.
+
+## 9. Operational scale
+
+Create one simple, high-impact section on a dark background.
+
+Large typography:
+
+**02**
+
+`POWER UNITS`
+
+Then:
+
+**02**
+
+`DRIVERS`
+
+Supporting line:
+
+"SAFER lists 2 power units and 2 drivers."
+
+Do not imply a larger fleet. Do not add decorative vehicle icons, progress bars, or fake performance metrics.
+
+## 10. Operating authority
+
+Small label:
+
+`02 / AUTHORITY`
+
+Headline:
+
+# AUTHORIZED
+
+# TO OPERATE.
+
+Present the exact supplied authority:
+
+**Authorized for Motor Carrier of Property, except household goods.**
+
+Display:
+
+`USDOT 3816355`
+`MC-1386941`
+
+Add a restrained text link:
+
+**VERIFY CARRIER INFORMATION ↗**
+
+Link to the appropriate official FMCSA resource after verifying the destination. Do not use a fabricated verification badge or suggest that this website independently certifies compliance.
+
+## 11. MCS-150 mileage
+
+Use a quiet, typography-led section.
+
+Large number:
+
+# 18,000
+
+Below:
+
+`MCS-150 REPORTED MILEAGE`
+`REPORTING YEAR: 2024`
+
+Do not describe this as miles delivered, accident-free miles, or total lifetime fleet mileage. Preserve the official data context.
+
+## 12. Signature scroll scene
+
+Create one memorable scroll-driven sequence instead of many competing effects.
+
+Use a full-width highway photograph in a pinned section of approximately 180–220vh.
+
+As the visitor scrolls, reveal three words:
+
+**MOVEMENT.**
+
+**DISTANCE.**
+
+**DESTINATION.**
+
+A truck image moves horizontally a short distance while the background shifts subtly at a different speed.
+
+Use GSAP ScrollTrigger if appropriate. Keep the animation smooth, restrained, and fully responsive.
+
+These scenes are illustrative brand storytelling, not representations of actual JES shipments or routes.
+
+On mobile, simplify the effect to short image reveals and fades.
+
+## 13. Photography direction
+
+Use approximately 6–10 distinct images, depending on available assets:
+
+* Hero highway scene
+* Truck front or cab detail
+* Truck side profile
+* California road landscape
+* Professional driver near a truck
+* Pre-trip vehicle inspection
+* Freight or warehouse environment
+* Cab interior
+* Final road image
+
+Use realistic, high-quality photography with natural colors.
+
+Avoid repetitive images, distorted equipment, incorrect vehicle geometry, competitor branding, and fabricated company logos.
+
+Where authentic JES images are unavailable, use representative photography without implying the pictured truck belongs to the company.
+
+## 14. Location section
+
+Small label:
+
+`03 / LOCATION`
+
+Headline:
+
+# CORONA,
+
+# CALIFORNIA.
+
+Display the supplied physical address:
+
+1828 Delancy Ln
+Corona, CA 92881-4411
+
+Phone:
+
+(951) 256-6567
+
+Use a wide photograph with restrained parallax.
+
+Do not describe Corona as an operating region or claim specific service coverage based only on the company's address.
+
+## 15. Carrier information page
+
+Create a dedicated `/carrier-info` page useful for brokers and business contacts.
+
+Headline:
+
+# THE DETAILS
+
+# MATTER.
+
+Present the information in an accessible, easy-to-copy table:
+
+* Legal name: JES Transportation LLC
+* Entity type: CARRIER/IEP
+* USDOT: 3816355
+* Status: Active
+* MC: MC-1386941
+* Operating authority: Motor Carrier of Property, except household goods
+* Power units: 2
+* Drivers: 2
+* MCS-150 form date: May 7, 2025
+* MCS-150 mileage: 18,000, reporting year 2024
+* Physical address: 1828 Delancy Ln, Corona, CA 92881-4411
+* Mailing address: 1828 Delancy Ln, Corona, CA 92881-4411
+* Phone: (951) 256-6567
+
+Use thin dividers, readable labels, and generous spacing. No bulky cards or unnecessary icons.
+
+Include a link to official carrier information after validating the URL.
+
+## 16. Contact section
+
+Use a warm-white background with oversized but restrained typography.
+
+Headline:
+
+# LET'S
+
+# TALK.
+
+Display:
+
+**(951) 256-6567**
+
+1828 Delancy Ln
+Corona, CA 92881-4411
+
+Primary CTA:
+
+**CALL JES ↗**
+
+Secondary CTA:
+
+**SEND AN INQUIRY**
+
+Keep the phone number visible and easy to tap.
+
+## 17. Minimal contact form
+
+Use only the necessary fields:
+
+* Name
+* Company
+* Email
+* Phone
+* Message
+
+Design the inputs as simple underlined fields, not large rounded boxes.
+
+Use clear validation and an accessible success state.
+
+Do not show a success message until the form has actually been submitted successfully. Connect the form to a working backend or supported form service; do not create a nonfunctional submit button.
+
+## 18. Footer
+
+Use a simple black footer with strong typography.
+
+**JES TRANSPORTATION LLC**
+
+`USDOT 3816355`
+`MC-1386941`
+`CORONA, CALIFORNIA`
+
+Phone: `(951) 256-6567`
+
+Links:
+
+* Company
+* Operations
+* Carrier Information
+* Contact
+* Privacy
+* Terms
+
+Copyright:
+
+`© JES TRANSPORTATION LLC`
+
+Do not invent a founding year or social media accounts.
+
+## 19. Minimal interaction system
+
+Use only a few polished interactions:
+
+* Links reveal a thin underline on hover.
+* CTA arrows move approximately 4px.
+* Images scale slightly on hover.
+* Headings reveal through a mask.
+* Sections fade or slide into view.
+* Navigation gains a subtle divider when scrolling.
+
+Avoid spinning logos, floating icons, animated particles, excessive cursor effects, bouncing cards, and multiple overlapping parallax layers.
+
+A custom cursor is optional, desktop-only, and should be removed if it distracts from navigation.
+
+## 20. Mobile experience
+
+Design mobile intentionally rather than shrinking the desktop layout.
+
+* Large but readable headline
+* Full-width photography
+* Compact navigation
+* Simple vertical section flow
+* Shortened animations
+* No horizontal overflow
+* Readable carrier information
+* One-tap calling
+
+A discreet fixed bottom bar may offer **CALL** and **CONTACT**. Do not let it obscure form fields or other content.
+
+## 21. Technical requirements
+
+Preferred stack:
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* GSAP and ScrollTrigger only where useful
+
+Use semantic HTML, responsive image sizes, AVIF/WebP, lazy loading, optimized fonts, keyboard navigation, visible focus states, and reduced-motion support.
+
+Aim for excellent Lighthouse performance, accessibility, SEO, and best-practice scores. Avoid adding libraries without a clear reason.
+
+Respect `prefers-reduced-motion`: disable pinned scenes, smooth scrolling, parallax, and nonessential animation when appropriate.
+
+## 22. SEO
+
+Meta title:
+
+`JES Transportation LLC | Motor Carrier in Corona, California`
+
+Meta description:
+
+`JES Transportation LLC is an active motor carrier based in Corona, California, authorized for motor carrier of property except household goods.`
+
+Use appropriate Organization, PostalAddress, ContactPoint, and BreadcrumbList structured data. Include only fields supported by verified information.
+
+## 23. Required pages
+
+Build a complete website, not just a landing-page mockup:
+
+* `/` — Home
+* `/company` — Company information
+* `/operations` — Operational overview
+* `/carrier-info` — Carrier registration information
+* `/contact` — Contact and inquiry form
+* `/privacy` — Privacy policy
+* `/terms` — Terms of use
+
+Do not create unnecessary pages just to make the site appear larger.
+
+## 24. Final quality checklist
+
+Before completion, verify:
+
+* The website feels minimal but detailed.
+* Photography and typography lead the design.
+* There are no unnecessary icon grids or bulky cards.
+* The USDOT and MC numbers are accurate.
+* The phone number works as a tap-to-call link.
+* The carrier information is easy to locate and copy.
+* Every company claim is supported by supplied information.
+* No safety rating, service area, or performance claim has been invented.
+* Scroll effects are smooth and purposeful.
+* The site works on mobile and with reduced motion.
+* Every form and navigation link functions.
+* The site does not look like a generic AI-generated template.
+
+## Final creative direction
+
+Make JES Transportation LLC feel established through **clarity, restraint, composition, typography, photography, and attention to detail**—not through fake scale or decorative UI.
+
+The guiding principle is:
+
+# LESS UI.
+
+# MORE INTENTION.
+
+Every section should have a purpose. Every animation should improve the experience. Every business detail should be accurate.
+
+Deliver a complete, responsive, polished website that is ready for real company content and deployment.
